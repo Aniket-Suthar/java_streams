@@ -1,0 +1,71 @@
+
+================ Popular Authors with Diverse Categories ================
+
+================ Most Reviewed Book per Category ================
+" Mystery -> Harry Potter and the Philosophers Stone (1997) by J. K. Rowling (Reviews: 266.0)
+Islamic Books -> Madinah Arabic Reader 1 by Dr. V. Abdur Rahim (Reviews: 6.0)
+ Alison Anderson" -> My Devotion by "Julia Kerninon (Reviews: 470.0)
+Novel -> The Old Man and The Sea by Ernest Hemingway (Reviews: 54.0)
+International Politics -> The Post American World And The Rise Of The Rest by Fareed Zakaria (Reviews: 0.0)
+Foreign Language Books -> Tata Stories by Harish Bhat (Reviews: 0.0)
+Yashavant Kanetkar -> "Let Us C by  19th Edition" (Reviews: 0.0)
+ Novel -> 400 Days by Chetan Bhagat (Reviews: 9.0)
+ Richard Pevear (Translator) -> War And Peace by "Leo Tolstoy (Reviews: 108.0)
+ Suzy Welch" -> Winning by "Jack Welch (Reviews: 0.0)
+History and Tradition -> Sapiens A Brief History Of Humankind by Yuval Noah Harari (Reviews: 39.0)
+Self-help and meditation -> How to Win Friends and Influence People by Dale Carnegie (Reviews: 29.0)
+ David Wyllie (Translator)" -> Metamorphosis by "Franz Kafka (Reviews: 0.0)
+ M. Suresh Rao" -> How Harsh Mariwala ?Groomed? Marico by "R. Gopalakrishnan  (Reviews: 470.0)
+" Business -> The Intelligent Investor by Benjamin Graham (Reviews: 0.0)
+War Tactics and Foreign Policy -> The Art of War by Sun Tzu (Reviews: 0.0)
+"Peter Thiel -> "Zero to One: Notes on Start Ups by  or How to Build the Future" (Reviews: 308.0)
+ Francesc Miralles" -> Ikigai by "Hector Garcia (Reviews: 470.0)
+International Political Personality -> Mein Kampf by Adolf Hitler (Reviews: 17.0)
+"Biographies -> Elon Musk by Walter Isaacson (Reviews: 470.0)
+"Business -> The Wealth of Nations : Fingerprint by Adam Smith (Reviews: 470.0)
+ Bruce Prideaux (Editor) -> Managing Tourism and Hospitality Services by "Gianna Moscardo (Editor) (Reviews: 1.0)
+ B.S. Badan" -> Ecotourism by "Harish Bhat  (Reviews: 0.0)
+ Esther Duflo" -> Good Economics for Hard Times by "Abhijit V. Banerjee  (Reviews: 470.0)
+
+================ Impact of Discount and Edition on Availability ================
+Edition: 292 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 1st Edition -> Discounted Total: 71, Avg Non-Discounted: 16.0
+Edition: 492 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 372 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 1st -> Discounted Total: 37, Avg Non-Discounted: 0.0
+Edition: Reissue Edition -> Discounted Total: 0, Avg Non-Discounted: 38.0
+Edition: 498 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 1st Edition 2011 -> Discounted Total: 0, Avg Non-Discounted: 21.0
+Edition: 419 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: In Stock -> Discounted Total: 0, Avg Non-Discounted: 5.0
+Edition: 32 -> Discounted Total: 0, Avg Non-Discounted: 100.0
+Edition: 5th Edition -> Discounted Total: 7, Avg Non-Discounted: 0.0
+Edition: 1st Published -> Discounted Total: 50, Avg Non-Discounted: 0.0
+Edition: 2nd Edition -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: Edition -> Discounted Total: 4, Avg Non-Discounted: 0.0
+Edition: 1 -> Discounted Total: 0, Avg Non-Discounted: 530.0
+Edition: 100 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 288 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 2 -> Discounted Total: 0, Avg Non-Discounted: 704.5
+Edition: 224 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 202 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 345 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 5 -> Discounted Total: 0, Avg Non-Discounted: 498.0
+Edition: 6 -> Discounted Total: 0, Avg Non-Discounted: 598.0
+Edition: 304 -> Discounted Total: 0, Avg Non-Discounted: 0.0
+Edition: 8 -> Discounted Total: 0, Avg Non-Discounted: 998.0
+Edition: Published -> Discounted Total: 45, Avg Non-Discounted: 33.5
+
+================ Best-Selling Authors with High Stock ================
+Walter Isaacson -> Wished Users: 1223
+Dale Carnegie -> Wished Users: 967
+"Leo Tolstoy -> Wished Users: 1276
+"Julia Kerninon -> Wished Users: 272020
+
+================ Categorizing Books by Price and Length ================
+Price: Low
+  Medium -> 9 books
+  Long -> 1 books
+  Short -> 28 books
+Price: Medium
+  Medium -> 2 books
