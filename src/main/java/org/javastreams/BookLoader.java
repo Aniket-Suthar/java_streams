@@ -1,31 +1,30 @@
 package org.javastreams;
 
 import java.io.*;
-import java.nio.file.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class BookLoader {
-    private static int parseInteger(String value, int defaultValue) {
+    private static int parseInteger(String value) {
         try {
             return Integer.parseInt(value.replaceAll("[^0-9]", ""));
         } catch (NumberFormatException e) {
-            return defaultValue;
+            return 0;
         }
     }
 
-    private static double parseDouble(String value, double defaultValue) {
+    private static double parseDouble(String value) {
         try {
             return Double.parseDouble(value.replaceAll("[^0-9.]", ""));
         } catch (NumberFormatException e) {
-            return defaultValue;
+            return 0.0;
         }
     }
 
-    public static List<Book> loadBooks(String filename) {
-        List<Book> books = new ArrayList<>();
-        try (BufferedReader br = Files.newBufferedReader(Paths.get(filename))) {
-            br.readLine(); // Skip header line
+    public static List<Book>loadBooks(String filename) throws IOException {
+        List<Book> books;
+        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+            br.readLine(); // skipping the header line
             books = br.lines().map(line -> {
                 String[] parts = line.split(",");
 
@@ -33,18 +32,16 @@ public class BookLoader {
                         parts[0],                          // Title
                         parts[1],                          // Author
                         parts[2],                          // Category
-                        parseInteger(parts[3], 0),         // Price (handles non-numeric values)
-                        parseInteger(parts[6], 0),         // Pages (handles non-numeric values)
+                        parseInteger(parts[3]),         // Price (handling non-numeric values)
+                        parseInteger(parts[6]),
                         parts[7],                          // Edition
-                        parseInteger(parts[5], 0),         // Copies Left
-                        parseInteger(parts[9], 0),         // Wished Users
+                        parseInteger(parts[5]),         // Copies Left
+                        parseInteger(parts[9]),         // Wished Users
                         "Yes".equalsIgnoreCase(parts[10]), // Discount (true if "Yes")
-                        parseDouble(parts[11], 0.0),       // Ratings
-                        parseDouble(parts[12], 0.0)        // Reviews
+                        parseDouble(parts[11]),       // Ratings
+                        parseDouble(parts[12])        // Reviews
                 );
             }).collect(Collectors.toList());
-        } catch (IOException e) {
-            e.printStackTrace();
         }
         return books;
     }
